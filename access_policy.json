@@ -1,0 +1,22 @@
+{
+  "restrict_all": false,
+  "allow_only_ids": [],
+  "blocked_ids": [],
+  "allowed_groups": [
+    -1003442535820,
+    -1003435721481
+  ],
+  "groups_only": true,
+  "bypass_groups_only": [
+    7708627627
+  ],
+  "perms": {
+    "7708627627": [
+      "addsite"
+    ]
+  },
+  "admin_ids": [
+    7708627627
+  ],
+  "removed_admin_ids": []
+}

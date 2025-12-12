@@ -1,11 +1,2 @@
-[build]
-  builder = "NIXPACKS"
-  buildCommand = ""
-
-[deploy]
-  startCommand = ""
-  healthcheckPath = "/"
-
-[[staticAssets]]
-  guestDirectory = "/"
-  localDirectory = "./"
+[service]
+healthcheck = { enabled = false }

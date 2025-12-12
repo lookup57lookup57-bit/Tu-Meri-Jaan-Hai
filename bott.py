@@ -30,7 +30,7 @@ import t2
 
 import st
 
-BOT_TOKEN = "8500645785:AAEJVUhkrXNIQzt7qZWgWrwV8el4UTIJLBA"
+BOT_TOKEN = "8560729094:AAEO0ZPI3aoQR0Q16dhc-4e6NmAE69IGDS0"
 
 GLOBAL_MAX_WORKERS = 500  # Increased from 200 for much faster parallel processing with large batches
 # Dynamic batch workers based on batch size for optimal performance
@@ -10884,4 +10884,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()

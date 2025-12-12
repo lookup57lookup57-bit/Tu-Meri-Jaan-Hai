@@ -1,4 +1,13 @@
-providers = ["python"]
+[phases.build]
+cmds = [
+  'pip install -r requirements.txt'  # Upgrade skip kar do, direct install
+]
+
+[phases.setup]
+nixPkgs = ['python311']  # Ya jo version chahiye, 3.11 stable hai bots ke liye
 
 [start]
-cmd = "python bott.py"
+cmd = "python bott.py"  # Ya bot.py
+
+[env]
+PIP_DISABLE_PIP_VERSION_CHECK = "1"  # Yeh extra: pip ke version check warnings band kar deta hai
